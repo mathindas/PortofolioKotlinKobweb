@@ -1,18 +1,43 @@
 package com.rivaldorendy.website.pages
 
-import androidx.compose.runtime.*
-import com.varabyte.kobweb.compose.foundation.layout.Box
-import com.varabyte.kobweb.compose.ui.Alignment
+import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.ui.Modifier
-import com.varabyte.kobweb.compose.ui.modifiers.fillMaxSize
+import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.Page
-import org.jetbrains.compose.web.dom.Text
+import com.rivaldorendy.website.components.layouts.PageLayout
+import com.rivaldorendy.website.components.sections.About
+import com.rivaldorendy.website.components.sections.Experience
+import com.rivaldorendy.website.components.sections.Home
+import com.rivaldorendy.website.components.sections.Photography
+import com.rivaldorendy.website.components.sections.Projects
+import com.rivaldorendy.website.components.sections.SkillsAndTools
+import com.rivaldorendy.website.utils.Res
+import com.varabyte.kobweb.compose.foundation.layout.*
 
 @Page
 @Composable
 fun HomePage() {
-    // TODO: Replace the following with your own content
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("THIS PAGE INTENTIONALLY LEFT BLANK")
+    PageLayout("Home") {
+        Row(
+            Modifier.fillMaxWidth().fontFamily(Res.Fonts.Space_Grotesk).id("home")
+        ) {
+            Box {
+
+                Column {
+
+                    Home()
+
+                    About()
+
+                    Experience()
+
+                    SkillsAndTools()
+
+                    Photography()
+
+                    Projects()
+                }
+            }
+        }
     }
 }
