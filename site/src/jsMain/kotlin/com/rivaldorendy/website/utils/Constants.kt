@@ -1,7 +1,7 @@
 package com.rivaldorendy.website.utils
 
 object Constants {
-    const val RESUME_URL = "https://drive.google.com/file/d/1cDrT_MfkUja5_xXnK5JvD5esT7MwFara/view?usp=sharing"
+    const val RESUME_URL = "https://drive.google.com/file/d/11Q79p32DPrcNybJEGX_zz9DU5AonqXQD/view?usp=sharing"
     const val LINKEDIN_URL = "https://www.linkedin.com/in/rivaldo-rendy-mathindas-7088731b1/"
     const val GITHUB_URL = "https://github.com/mathindas"
     const val INSTAGRAM_URL = "https://twitter.com/binayplays7777"
@@ -38,7 +38,22 @@ object Constants {
     const val MORE_ON_GITHUB = "More on GitHub."
 
     // skills
-    const val KOTLIN = "Kotlin"
+    const val KOTLIN = "     Kotlin      \n "
     const val JAVA = "Java"
+    const val DART = "Dart"
+    const val SQL = "SQL"
     const val PHP = "PHP"
+    const val CSHARP = "C#"
+    const val GOLANG = "Golang"
+    const val XML = "XML"
+
+    // tools
+    const val ANDROID_STUDIO = "Android\nStudio"
+    const val FLUTTER = "Flutter"
+    const val LARAVEL = "Laravel"
+    const val SQL_SERVER = "SQL\nServer"
+    const val FIGMA = "Figma"
+    const val DOCKER = "Docker"
+    const val GIT = "Git"
+    const val POSTMAN = "Postman"
 }

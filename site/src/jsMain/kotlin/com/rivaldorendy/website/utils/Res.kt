@@ -12,23 +12,22 @@ object Res {
 
         // Tools
         const val ANDROID_LOGO = "images/Tools/Android.svg"
+        const val FLUTTER_LOGO = "images/Tools/Flutter.svg"
+        const val LARAVEL_LOGO = "images/Tools/Laravel.svg"
         const val FIGMA_LOGO = "images/Tools/Figma.svg"
-        const val FIREBASE_LOGO = "images/Tools/Firebase.svg"
+        const val DOCKER_LOGO = "images/Tools/Docker.svg"
         const val GIT_LOGO = "images/Tools/Git.svg"
-        const val INTELLIJ_LOGO = "images/Tools/IntelliJ.svg"
-        const val MONGODB_LOGO = "images/Tools/MongoDB.svg"
         const val POSTMAN_LOGO = "images/Tools/Postman.svg"
-        const val VSCODE_LOGO = "images/Tools/VSCode.svg"
 
         // Skills
         const val KOTLIN_LOGO = "images/Skills/Kotlin.svg"
         const val JAVA_LOGO = "images/Skills/Java.svg"
-        const val CSS_LOGO = "images/Skills/CSS.svg"
-        const val EXPRESS_LOGO = "images/Skills/ExpressJS.svg"
-        const val PHP_LOGO = "images/Skills/HTML.svg"
-        const val JAVASCRIPT_LOGO = "images/Skills/Javascript.svg"
-        const val MARKDOWN_LOGO = "images/Skills/Markdown.svg"
-        const val NODEJS_LOGO = "images/Skills/NodeJS.svg"
+        const val DART_LOGO = "images/Skills/Dart.svg"
+        const val SQL_LOGO = "images/Skills/Sql.svg"
+        const val PHP_LOGO = "images/Skills/Php.svg"
+        const val CSHARP_LOGO = "images/Skills/Csharp.svg"
+        const val GOLANG_LOGO = "images/Skills/Golang.svg"
+        const val XML_LOGO = "images/Skills/Xml.svg"
 
         // Socials
         const val BEHANCE = "images/Socials/behance.svg"

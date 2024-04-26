@@ -188,20 +188,20 @@ fun NetworkingIconButtons(ctx: PageContext, modifier: Modifier = Modifier) {
         ) {
             AppearanceAwareImage(src = Res.Images.GITHUB)
         }
-        IconButtonNoHover(
-            onClick = { ctx.router.navigateTo(Constants.INSTAGRAM_URL) }
-        ) {
-            AppearanceAwareImage(src = Res.Images.TWITTER_X)
-        }
-        IconButtonNoHover(
-            onClick = { ctx.router.navigateTo(Constants.BEHANCE_URL) }
-        ) {
-            AppearanceAwareImage(src = Res.Images.BEHANCE)
-        }
-        IconButtonNoHover(
-            onClick = { ctx.router.navigateTo(Constants.MEDIUM_URL) }
-        ) {
-            AppearanceAwareImage(src = Res.Images.MEDIUM)
-        }
+//        IconButtonNoHover(
+//            onClick = { ctx.router.navigateTo(Constants.INSTAGRAM_URL) }
+//        ) {
+//            AppearanceAwareImage(src = Res.Images.TWITTER_X)
+//        }
+//        IconButtonNoHover(
+//            onClick = { ctx.router.navigateTo(Constants.BEHANCE_URL) }
+//        ) {
+//            AppearanceAwareImage(src = Res.Images.BEHANCE)
+//        }
+//        IconButtonNoHover(
+//            onClick = { ctx.router.navigateTo(Constants.MEDIUM_URL) }
+//        ) {
+//            AppearanceAwareImage(src = Res.Images.MEDIUM)
+//        }
     }
 }

@@ -33,9 +33,9 @@ fun HomePage() {
 
                     SkillsAndTools()
 
-                    Photography()
+//                    Photography()
 
-                    Projects()
+//                    Projects()
                 }
             }
         }

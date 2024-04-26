@@ -58,7 +58,7 @@ fun SkillsAndTools() {
                     GlassBox(
                         modifier = Modifier.size(65.px)
                             .margin(all = 0.6.cssRem),
-                        text = "Kotlin"
+                        text = Constants.KOTLIN
                     ) {
                         Image(
                             src = Res.Images.KOTLIN_LOGO,
@@ -70,8 +70,8 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.JAVA
                     ) {
                         Image(
                             src = Res.Images.JAVA_LOGO,
@@ -80,8 +80,29 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.DART
+                    ) {
+                        Image(
+                            src = Res.Images.DART_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.SQL
+                    ) {
+                        Image(
+                            src = Res.Images.SQL_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
 
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.PHP
                     ) {
                         Image(
                             src = Res.Images.PHP_LOGO,
@@ -90,52 +111,31 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.CSHARP
                     ) {
                         Image(
-                            src = Res.Images.CSS_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
-                            src = Res.Images.JAVASCRIPT_LOGO,
+                            src = Res.Images.CSHARP_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.GOLANG
                     ) {
                         Image(
-                            src = Res.Images.EXPRESS_LOGO,
+                            src = Res.Images.GOLANG_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.XML
                     ) {
                         Image(
-                            src = Res.Images.NODEJS_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
-                            src = Res.Images.MARKDOWN_LOGO,
+                            src = Res.Images.XML_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }
@@ -151,8 +151,8 @@ fun SkillsAndTools() {
                 ) {
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.ANDROID_STUDIO
                     ) {
                         Image(
                             src = Res.Images.ANDROID_LOGO,
@@ -161,18 +161,38 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.FLUTTER
                     ) {
                         Image(
-                            src = Res.Images.INTELLIJ_LOGO,
+                            src = Res.Images.FLUTTER_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.LARAVEL
+                    ) {
+                        Image(
+                            src = Res.Images.LARAVEL_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.SQL_SERVER
+                    ) {
+                        Image(
+                            src = Res.Images.SQL_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.FIGMA
                     ) {
                         Image(
                             src = Res.Images.FIGMA_LOGO,
@@ -181,38 +201,18 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.DOCKER
                     ) {
                         Image(
-                            src = Res.Images.FIREBASE_LOGO,
+                            src = Res.Images.DOCKER_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
-                            src = Res.Images.MONGODB_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
-                            src = Res.Images.VSCODE_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.GIT
                     ) {
                         Image(
                             src = Res.Images.GIT_LOGO,
@@ -221,8 +221,8 @@ fun SkillsAndTools() {
                     }
                     GlassBox(
                         modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
+                            .margin(all = 0.6.cssRem),
+                        text = Constants.POSTMAN
                     ) {
                         Image(
                             src = Res.Images.POSTMAN_LOGO,

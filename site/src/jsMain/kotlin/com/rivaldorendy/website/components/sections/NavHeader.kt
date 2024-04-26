@@ -55,8 +55,8 @@ private fun MenuItems() {
     NavLink("#about", "About")
     NavLink("#experience", "Experience")
     NavLink("#skills_and_tools", "Skills & Tools")
-    NavLink("#photography", "Photography")
-    NavLink("#projects", "Projects")
+//    NavLink("#photography", "Photography")
+//    NavLink("#projects", "Projects")
 }
 
 @Composable
